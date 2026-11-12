@@ -80,6 +80,11 @@ public class PlayerInteractor : MonoBehaviour
         playerRb.angularVelocity = new Vector3(0, 0, 0);
         //4- Reproducir el sonido de respawn desde el audiosource del player
         sfxSource.PlayOneShot(sfxList[1]);
+        PlayerDash dashScript = GetComponent<PlayerDash>();
+        if (dashScript != null)
+        {
+            dashScript.ResetDashes();
+        }
     }
 
     void ChangeScene()
