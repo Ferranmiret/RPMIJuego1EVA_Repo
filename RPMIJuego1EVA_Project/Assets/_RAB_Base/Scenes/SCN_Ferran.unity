@@ -146,6 +146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gingerbread-man
       objectReference: {fileID: 0}
+    - target: {fileID: 278859870853162807, guid: 0d3f0056343203b439bdb979865260ee, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 618511847823261069, guid: 0d3f0056343203b439bdb979865260ee, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.8632998
@@ -214,6 +218,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -337,6 +345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform
       objectReference: {fileID: 0}
+    - target: {fileID: 8023395758940906883, guid: 3b9e44c76bcda8f4592bd9ee553c35ac, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -420,6 +432,10 @@ PrefabInstance:
     - target: {fileID: 5305394719337268272, guid: d943116d0865aeb4da857105a03b7f5f, type: 3}
       propertyPath: m_Name
       value: train-tender
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305394719337268272, guid: d943116d0865aeb4da857105a03b7f5f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -510,6 +526,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: train-tender
       objectReference: {fileID: 0}
+    - target: {fileID: 5305394719337268272, guid: d943116d0865aeb4da857105a03b7f5f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -526,6 +546,10 @@ PrefabInstance:
     - target: {fileID: 7227826088283268428, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
       propertyPath: m_Name
       value: door-open (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227826088283268428, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7999999482552696822, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
       propertyPath: m_LocalScale.x
@@ -659,6 +683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sled (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8855861916681118471, guid: fc9599002d7112d49939ba86115969db, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -675,6 +703,10 @@ PrefabInstance:
     - target: {fileID: 6109459577221352366, guid: e4ff9915f5813ba47aab188c52ced298, type: 3}
       propertyPath: m_Name
       value: platform-ramp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109459577221352366, guid: e4ff9915f5813ba47aab188c52ced298, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6882337719839838484, guid: e4ff9915f5813ba47aab188c52ced298, type: 3}
       propertyPath: m_LocalPosition.x
@@ -732,6 +764,10 @@ PrefabInstance:
     - target: {fileID: 5839481031308867423, guid: d91e5110a823e964ab213263c23b2cd4, type: 3}
       propertyPath: m_Name
       value: rocks-large
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839481031308867423, guid: d91e5110a823e964ab213263c23b2cd4, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6503709837149056485, guid: d91e5110a823e964ab213263c23b2cd4, type: 3}
       propertyPath: m_LocalScale.x
@@ -855,6 +891,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: block-moving
       objectReference: {fileID: 0}
+    - target: {fileID: 7710517986001543106, guid: c7d4cc851256e2d4c87b22a7e06a0411, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -920,6 +960,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cabin-wall-wreath
       objectReference: {fileID: 0}
+    - target: {fileID: 871143278358184608, guid: 5fa7b3372875ef64e8d02ccf321d8426, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -951,6 +995,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1014,6 +1062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spike-block-wide (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.0785356
@@ -1070,6 +1122,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -1135,6 +1191,10 @@ PrefabInstance:
     - target: {fileID: 5773493018872844196, guid: 92a3010c041402d429f16aca4c66035f, type: 3}
       propertyPath: m_Name
       value: snowman
+      objectReference: {fileID: 0}
+    - target: {fileID: 5773493018872844196, guid: 92a3010c041402d429f16aca4c66035f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6580957399474853150, guid: 92a3010c041402d429f16aca4c66035f, type: 3}
       propertyPath: m_LocalScale.x
@@ -1204,6 +1264,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -1327,6 +1391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: arrow
       objectReference: {fileID: 0}
+    - target: {fileID: 7669558167855563393, guid: a226f13b5bc446b448c97657b512eb96, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1343,6 +1411,10 @@ PrefabInstance:
     - target: {fileID: 7227826088283268428, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
       propertyPath: m_Name
       value: door-open (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227826088283268428, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7999999482552696822, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
       propertyPath: m_LocalScale.x
@@ -1428,6 +1500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spike-block-wide (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
       value: 8.7705
@@ -1481,63 +1557,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
---- !u!1001 &209548812
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3295082559860610859, guid: ad05bb52c848bd34798792368a48d415, type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.1828184
-      objectReference: {fileID: 0}
-    - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.56434065
-      objectReference: {fileID: 0}
-    - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6.175957
-      objectReference: {fileID: 0}
-    - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ad05bb52c848bd34798792368a48d415, type: 3}
 --- !u!4 &210112879 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6999840840420579387, guid: a226f13b5bc446b448c97657b512eb96, type: 3}
@@ -1559,6 +1578,10 @@ PrefabInstance:
     - target: {fileID: 5056945602898127257, guid: adf077596ff41194091482697128502a, type: 3}
       propertyPath: m_Name
       value: tree-snow-a
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056945602898127257, guid: adf077596ff41194091482697128502a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5577199714220585763, guid: adf077596ff41194091482697128502a, type: 3}
       propertyPath: m_LocalScale.x
@@ -1629,6 +1652,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: candy-cane-green (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7305005146624300684, guid: 52007e1c88dcb434e91d4f982f36f531, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7938517755643382838, guid: 52007e1c88dcb434e91d4f982f36f531, type: 3}
       propertyPath: m_LocalScale.x
       value: 10.781045
@@ -1698,6 +1725,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spike-block-wide (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.767451
@@ -1764,6 +1795,10 @@ PrefabInstance:
     - target: {fileID: 1542409593896883299, guid: 51fa1ee3cd718bd409d672fd66a6afb5, type: 3}
       propertyPath: m_Name
       value: block-snow-curve-half
+      objectReference: {fileID: 0}
+    - target: {fileID: 1542409593896883299, guid: 51fa1ee3cd718bd409d672fd66a6afb5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 2174233623925919449, guid: 51fa1ee3cd718bd409d672fd66a6afb5, type: 3}
       propertyPath: m_LocalScale.x
@@ -1834,6 +1869,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bench
       objectReference: {fileID: 0}
+    - target: {fileID: 4631878412553104293, guid: 424201edadbe57342a04f037ec04f22d, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5407816328481829151, guid: 424201edadbe57342a04f037ec04f22d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.23
@@ -1896,6 +1935,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrel (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5083903158700099483, guid: ac785e280924bf64c9b663bc64f7229a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5604296873025084705, guid: ac785e280924bf64c9b663bc64f7229a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.8963075
@@ -1957,6 +2000,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -2023,6 +2070,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spike-block-wide (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
       value: 8.7705
@@ -2087,6 +2138,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -2211,6 +2266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: block-snow (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4544152963762862996, guid: fc07a3b2adb9b914aa0e98161de8edd0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2232,6 +2291,10 @@ PrefabInstance:
     - target: {fileID: 7305005146624300684, guid: 52007e1c88dcb434e91d4f982f36f531, type: 3}
       propertyPath: m_Name
       value: candy-cane-green
+      objectReference: {fileID: 0}
+    - target: {fileID: 7305005146624300684, guid: 52007e1c88dcb434e91d4f982f36f531, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7938517755643382838, guid: 52007e1c88dcb434e91d4f982f36f531, type: 3}
       propertyPath: m_LocalScale.x
@@ -2302,6 +2365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-snow-c
       objectReference: {fileID: 0}
+    - target: {fileID: 442214064958295836, guid: 39b1ab90615b8d748a86ddca04c68b40, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 966268367628735910, guid: 39b1ab90615b8d748a86ddca04c68b40, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.2124
@@ -2370,6 +2437,10 @@ PrefabInstance:
     - target: {fileID: 37258628545296774, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
       propertyPath: m_Name
       value: spike-block (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 37258628545296774, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 851055169628201788, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
       propertyPath: m_LocalScale.x
@@ -2445,6 +2516,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spike-block-wide (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.57
@@ -2506,6 +2581,10 @@ PrefabInstance:
     - target: {fileID: 118067768988250587, guid: 19a62e6746bda344c8b8b70ba634aa1f, type: 3}
       propertyPath: m_Name
       value: block-moving-blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 118067768988250587, guid: 19a62e6746bda344c8b8b70ba634aa1f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 786061402292349793, guid: 19a62e6746bda344c8b8b70ba634aa1f, type: 3}
       propertyPath: m_LocalScale.x
@@ -2571,6 +2650,10 @@ PrefabInstance:
     - target: {fileID: 5016204244261884917, guid: 5cc733084fc42284b843e874fd1ddce4, type: 3}
       propertyPath: m_Name
       value: fence-broken (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016204244261884917, guid: 5cc733084fc42284b843e874fd1ddce4, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5680995721771813199, guid: 5cc733084fc42284b843e874fd1ddce4, type: 3}
       propertyPath: m_LocalScale.x
@@ -2642,6 +2725,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: train-locomotive
       objectReference: {fileID: 0}
+    - target: {fileID: 4968336429195724076, guid: 36b84a9f72bd97249a7f6b8a6702dcf8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5744555747336282006, guid: 36b84a9f72bd97249a7f6b8a6702dcf8, type: 3}
       propertyPath: m_LocalScale.x
       value: 5.3794575
@@ -2711,6 +2798,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: saw (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 7865162401987506561, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.58
@@ -2767,6 +2858,10 @@ PrefabInstance:
     - target: {fileID: 1665930728179310097, guid: bac7558cf035c9b459e457eb7aeaea9d, type: 3}
       propertyPath: m_Name
       value: cabin-roof-dormer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1665930728179310097, guid: bac7558cf035c9b459e457eb7aeaea9d, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 2041612253772989611, guid: bac7558cf035c9b459e457eb7aeaea9d, type: 3}
       propertyPath: m_LocalScale.x
@@ -2894,6 +2989,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: snow-bunker
       objectReference: {fileID: 0}
+    - target: {fileID: 7593358870540808973, guid: d2f2f438c31e8e248a2f693f342eb87c, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2910,6 +3009,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -3033,6 +3136,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-snow (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3420682924229598671, guid: f713d3abbddc9bd498d081e36c6d5831, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3054,6 +3161,10 @@ PrefabInstance:
     - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_Name
       value: saw (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 7865162401987506561, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3121,6 +3232,10 @@ PrefabInstance:
     - target: {fileID: 7227826088283268428, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
       propertyPath: m_Name
       value: door-open (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227826088283268428, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7999999482552696822, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
       propertyPath: m_LocalScale.x
@@ -3191,6 +3306,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: saw (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 7865162401987506561, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.515521
@@ -3247,6 +3366,10 @@ PrefabInstance:
     - target: {fileID: 8213225931797915901, guid: e2f4951727af1dc48819bae60a7b1535, type: 3}
       propertyPath: m_Name
       value: character-ooli
+      objectReference: {fileID: 0}
+    - target: {fileID: 8213225931797915901, guid: e2f4951727af1dc48819bae60a7b1535, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8840827566377349703, guid: e2f4951727af1dc48819bae60a7b1535, type: 3}
       propertyPath: m_LocalScale.x
@@ -3336,6 +3459,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -3447,6 +3574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bench-short
       objectReference: {fileID: 0}
+    - target: {fileID: 2079235479834000369, guid: 1f8b4b017049c6342b9de50ac34276be, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3463,6 +3594,10 @@ PrefabInstance:
     - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_Name
       value: saw (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 7865162401987506561, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3525,6 +3660,10 @@ PrefabInstance:
     - target: {fileID: 7227826088283268428, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
       propertyPath: m_Name
       value: door-open (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227826088283268428, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7999999482552696822, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
       propertyPath: m_LocalScale.x
@@ -3652,11 +3791,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: sled
       objectReference: {fileID: 0}
+    - target: {fileID: 8855861916681118471, guid: fc9599002d7112d49939ba86115969db, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9599002d7112d49939ba86115969db, type: 3}
+--- !u!1 &519265783 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3295082559860610859, guid: ad05bb52c848bd34798792368a48d415, type: 3}
+  m_PrefabInstance: {fileID: 699326046}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &519265790 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
+  m_PrefabInstance: {fileID: 699326046}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &519265791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519265783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14d4bdd278832ed4fb0c737fe3cdf403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDash
+  dashForce: 15
 --- !u!4 &525319586 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5604296873025084705, guid: ac785e280924bf64c9b663bc64f7229a, type: 3}
@@ -3721,6 +3887,10 @@ PrefabInstance:
     - target: {fileID: 4544152963762862996, guid: fc07a3b2adb9b914aa0e98161de8edd0, type: 3}
       propertyPath: m_Name
       value: block-snow (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544152963762862996, guid: fc07a3b2adb9b914aa0e98161de8edd0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3807,6 +3977,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: block-snow (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4544152963762862996, guid: fc07a3b2adb9b914aa0e98161de8edd0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3838,6 +4012,10 @@ PrefabInstance:
     - target: {fileID: 37258628545296774, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
       propertyPath: m_Name
       value: spike-block (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 37258628545296774, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 851055169628201788, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3900,6 +4078,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -3971,6 +4153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-snow-c (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 442214064958295836, guid: 39b1ab90615b8d748a86ddca04c68b40, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 966268367628735910, guid: 39b1ab90615b8d748a86ddca04c68b40, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.2124
@@ -4039,6 +4225,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -4109,6 +4299,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4230,6 +4424,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: block-snow (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4544152963762862996, guid: fc07a3b2adb9b914aa0e98161de8edd0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4261,6 +4459,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -4342,6 +4544,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spike-block-wide (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
       value: 8.7705
@@ -4406,6 +4612,10 @@ PrefabInstance:
     - target: {fileID: 8181789983836415669, guid: 8d49e493b37b1b24d9a00aa635804087, type: 3}
       propertyPath: m_Name
       value: block-snow-low-large
+      objectReference: {fileID: 0}
+    - target: {fileID: 8181789983836415669, guid: 8d49e493b37b1b24d9a00aa635804087, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8845173059693018127, guid: 8d49e493b37b1b24d9a00aa635804087, type: 3}
       propertyPath: m_LocalScale.x
@@ -4524,6 +4734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-snow (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3420682924229598671, guid: f713d3abbddc9bd498d081e36c6d5831, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4545,6 +4759,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -4659,6 +4877,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: block-snow (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4544152963762862996, guid: fc07a3b2adb9b914aa0e98161de8edd0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4674,6 +4896,70 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6500243546842422759, guid: ceb5ce3da8fe0324c89594b696256c10, type: 3}
   m_PrefabInstance: {fileID: 1001251380}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &699326046
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2955268093276677981, guid: ad05bb52c848bd34798792368a48d415, type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 2129399071}
+    - target: {fileID: 3295082559860610859, guid: ad05bb52c848bd34798792368a48d415, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.3060126
+      objectReference: {fileID: 0}
+    - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5711605
+      objectReference: {fileID: 0}
+    - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.9832687
+      objectReference: {fileID: 0}
+    - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3295082559860610859, guid: ad05bb52c848bd34798792368a48d415, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 519265791}
+  m_SourcePrefab: {fileID: 100100000, guid: ad05bb52c848bd34798792368a48d415, type: 3}
 --- !u!1001 &700827018
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4733,6 +5019,10 @@ PrefabInstance:
     - target: {fileID: 8838948359901840400, guid: 2c9c736ec6784b244a55c8162d53c527, type: 3}
       propertyPath: m_Name
       value: block-snow-curve-low
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838948359901840400, guid: 2c9c736ec6784b244a55c8162d53c527, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4803,6 +5093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rocks-small (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5661057053069514891, guid: be6750344b9809f44822f56ff1b8a0bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4819,6 +5113,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -4889,6 +5187,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -5013,6 +5315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: block-snow (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4544152963762862996, guid: fc07a3b2adb9b914aa0e98161de8edd0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5039,6 +5345,10 @@ PrefabInstance:
     - target: {fileID: 7227826088283268428, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
       propertyPath: m_Name
       value: door-open (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227826088283268428, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7999999482552696822, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
       propertyPath: m_LocalScale.x
@@ -5108,6 +5418,10 @@ PrefabInstance:
     - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_Name
       value: saw (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 7865162401987506561, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5214,6 +5528,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: block-snow (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4544152963762862996, guid: fc07a3b2adb9b914aa0e98161de8edd0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5235,6 +5553,10 @@ PrefabInstance:
     - target: {fileID: 2480749585080135637, guid: 80f0f61d2418b724aa62738e8614b249, type: 3}
       propertyPath: m_Name
       value: present-b-round
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480749585080135637, guid: 80f0f61d2418b724aa62738e8614b249, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 2965255549661640047, guid: 80f0f61d2418b724aa62738e8614b249, type: 3}
       propertyPath: m_LocalScale.x
@@ -5310,6 +5632,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: snowflake-a
       objectReference: {fileID: 0}
+    - target: {fileID: 4960567800994971209, guid: d7168e151241e4d488eec821dfd911e2, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5736647549611926771, guid: d7168e151241e4d488eec821dfd911e2, type: 3}
       propertyPath: m_LocalScale.x
       value: 5.2082996
@@ -5384,6 +5710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bench (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4631878412553104293, guid: 424201edadbe57342a04f037ec04f22d, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5407816328481829151, guid: 424201edadbe57342a04f037ec04f22d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 50.09
@@ -5440,6 +5770,10 @@ PrefabInstance:
     - target: {fileID: 5773493018872844196, guid: 92a3010c041402d429f16aca4c66035f, type: 3}
       propertyPath: m_Name
       value: snowman (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5773493018872844196, guid: 92a3010c041402d429f16aca4c66035f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6580957399474853150, guid: 92a3010c041402d429f16aca4c66035f, type: 3}
       propertyPath: m_LocalScale.x
@@ -5510,6 +5844,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spike-block-wide (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
       value: 8.7705
@@ -5575,6 +5913,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spike-block-wide (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.635
@@ -5631,6 +5973,10 @@ PrefabInstance:
     - target: {fileID: 406207385581215321, guid: f1a33f9b8f6d79f4d9a52b3bf1965e33, type: 3}
       propertyPath: m_Name
       value: ladder-broken
+      objectReference: {fileID: 0}
+    - target: {fileID: 406207385581215321, guid: f1a33f9b8f6d79f4d9a52b3bf1965e33, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1074376635467498723, guid: f1a33f9b8f6d79f4d9a52b3bf1965e33, type: 3}
       propertyPath: m_LocalScale.x
@@ -5696,6 +6042,10 @@ PrefabInstance:
     - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_Name
       value: saw (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 7865162401987506561, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5794,6 +6144,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: crate-item
       objectReference: {fileID: 0}
+    - target: {fileID: 3344381652532094341, guid: efc7d09180ce20746b01e3019a44bcdf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5810,6 +6164,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -5875,6 +6233,10 @@ PrefabInstance:
     - target: {fileID: 37258628545296774, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
       propertyPath: m_Name
       value: spike-block (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 37258628545296774, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 851055169628201788, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
       propertyPath: m_LocalScale.x
@@ -6002,6 +6364,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rocks-medium
       objectReference: {fileID: 0}
+    - target: {fileID: 973655085939414157, guid: 725a24e8df0078d4085003bf8c6bb80d, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6018,6 +6384,10 @@ PrefabInstance:
     - target: {fileID: 6109459577221352366, guid: e4ff9915f5813ba47aab188c52ced298, type: 3}
       propertyPath: m_Name
       value: platform-ramp (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109459577221352366, guid: e4ff9915f5813ba47aab188c52ced298, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6882337719839838484, guid: e4ff9915f5813ba47aab188c52ced298, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6138,6 +6508,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-snow (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3420682924229598671, guid: f713d3abbddc9bd498d081e36c6d5831, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6159,6 +6533,10 @@ PrefabInstance:
     - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_Name
       value: saw (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 7865162401987506561, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6221,6 +6599,10 @@ PrefabInstance:
     - target: {fileID: 278859870853162807, guid: 0d3f0056343203b439bdb979865260ee, type: 3}
       propertyPath: m_Name
       value: gingerbread-man (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 278859870853162807, guid: 0d3f0056343203b439bdb979865260ee, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 618511847823261069, guid: 0d3f0056343203b439bdb979865260ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -6409,6 +6791,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: door-open (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7227826088283268428, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7999999482552696822, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
       propertyPath: m_LocalScale.x
       value: 6.406832
@@ -6477,6 +6863,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -6553,6 +6943,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spike-block
       objectReference: {fileID: 0}
+    - target: {fileID: 37258628545296774, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 851055169628201788, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.3634
@@ -6627,6 +7021,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: saw (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 7865162401987506561, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.515521
@@ -6683,6 +7081,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -6749,6 +7151,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spike-block-wide (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
       value: 8.7705
@@ -6814,6 +7220,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform-overhang (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5872220833939785565, guid: ceb5ce3da8fe0324c89594b696256c10, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6500243546842422759, guid: ceb5ce3da8fe0324c89594b696256c10, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.765397
@@ -6870,6 +7280,10 @@ PrefabInstance:
     - target: {fileID: 5016204244261884917, guid: 5cc733084fc42284b843e874fd1ddce4, type: 3}
       propertyPath: m_Name
       value: fence-broken
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016204244261884917, guid: 5cc733084fc42284b843e874fd1ddce4, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5680995721771813199, guid: 5cc733084fc42284b843e874fd1ddce4, type: 3}
       propertyPath: m_LocalScale.x
@@ -6944,6 +7358,10 @@ PrefabInstance:
     - target: {fileID: 3767244793766851023, guid: 8ba0ed76bb0b44145a3e1e29a71e017f, type: 3}
       propertyPath: m_Name
       value: crate (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3767244793766851023, guid: 8ba0ed76bb0b44145a3e1e29a71e017f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4543042969440742261, guid: 8ba0ed76bb0b44145a3e1e29a71e017f, type: 3}
       propertyPath: m_LocalScale.x
@@ -7062,6 +7480,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: arrow (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7669558167855563393, guid: a226f13b5bc446b448c97657b512eb96, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7136,6 +7558,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: arrow (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7669558167855563393, guid: a226f13b5bc446b448c97657b512eb96, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7152,6 +7578,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7209,6 +7639,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -7274,6 +7708,10 @@ PrefabInstance:
     - target: {fileID: 5056945602898127257, guid: adf077596ff41194091482697128502a, type: 3}
       propertyPath: m_Name
       value: tree-snow-a (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5056945602898127257, guid: adf077596ff41194091482697128502a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5577199714220585763, guid: adf077596ff41194091482697128502a, type: 3}
       propertyPath: m_LocalScale.x
@@ -7392,6 +7830,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence-corner (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8773885304669719583, guid: ec349af02aad26e40a6bf4f8ba939a5d, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7413,6 +7855,10 @@ PrefabInstance:
     - target: {fileID: 6195615690177426031, guid: 04d12dc730399094d8ddcc47cdcfb9ae, type: 3}
       propertyPath: m_Name
       value: snowman-hat (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6195615690177426031, guid: 04d12dc730399094d8ddcc47cdcfb9ae, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6823216254773160149, guid: 04d12dc730399094d8ddcc47cdcfb9ae, type: 3}
       propertyPath: m_LocalScale.x
@@ -7488,6 +7934,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: saw (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 7865162401987506561, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.515521
@@ -7544,6 +7994,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -7658,6 +8112,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sign (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7610429585400264709, guid: 939d5c8ab9dc749468f976cab2f4d7da, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7674,6 +8132,10 @@ PrefabInstance:
     - target: {fileID: 1609456199733691575, guid: 3740d361dd2fb26428edb77168a7fe63, type: 3}
       propertyPath: m_Name
       value: tree-pine-snow
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609456199733691575, guid: 3740d361dd2fb26428edb77168a7fe63, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 2098184082522185229, guid: 3740d361dd2fb26428edb77168a7fe63, type: 3}
       propertyPath: m_LocalScale.x
@@ -7753,6 +8215,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -7867,6 +8333,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: block-snow-overhang-large-tall
       objectReference: {fileID: 0}
+    - target: {fileID: 4310968246064867812, guid: a5574384f7fbf63468614620b5b723bd, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7898,6 +8368,10 @@ PrefabInstance:
     - target: {fileID: 5872220833939785565, guid: ceb5ce3da8fe0324c89594b696256c10, type: 3}
       propertyPath: m_Name
       value: platform-overhang
+      objectReference: {fileID: 0}
+    - target: {fileID: 5872220833939785565, guid: ceb5ce3da8fe0324c89594b696256c10, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6500243546842422759, guid: ceb5ce3da8fe0324c89594b696256c10, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7955,6 +8429,10 @@ PrefabInstance:
     - target: {fileID: 37258628545296774, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
       propertyPath: m_Name
       value: spike-block (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 37258628545296774, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 851055169628201788, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8017,6 +8495,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -8157,6 +8639,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: saw (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 7865162401987506561, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.530553
@@ -8272,6 +8758,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: trainset-rail-detailed-straight (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2242207731051686616, guid: 4c0a47eb1c9f2a040a3962086df0b59e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8288,6 +8778,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -8406,6 +8900,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gingerbread-woman
       objectReference: {fileID: 0}
+    - target: {fileID: 2240728123062462224, guid: 278adad70eb57634787e526a42254bb3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8422,6 +8920,10 @@ PrefabInstance:
     - target: {fileID: 5872220833939785565, guid: ceb5ce3da8fe0324c89594b696256c10, type: 3}
       propertyPath: m_Name
       value: platform-overhang (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5872220833939785565, guid: ceb5ce3da8fe0324c89594b696256c10, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6500243546842422759, guid: ceb5ce3da8fe0324c89594b696256c10, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8479,6 +8981,10 @@ PrefabInstance:
     - target: {fileID: 37258628545296774, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
       propertyPath: m_Name
       value: spike-block (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 37258628545296774, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 851055169628201788, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8702,6 +9208,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spike-block-wide (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
       value: 8.7705
@@ -8819,6 +9329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sock-red
       objectReference: {fileID: 0}
+    - target: {fileID: 2196226914039185048, guid: 28ae044e946b5ed4eb36647d446872f3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8884,6 +9398,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: trainset-rail-detailed-straight
       objectReference: {fileID: 0}
+    - target: {fileID: 2242207731051686616, guid: 4c0a47eb1c9f2a040a3962086df0b59e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8900,6 +9418,10 @@ PrefabInstance:
     - target: {fileID: 4960567800994971209, guid: d7168e151241e4d488eec821dfd911e2, type: 3}
       propertyPath: m_Name
       value: snowflake-a (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4960567800994971209, guid: d7168e151241e4d488eec821dfd911e2, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5736647549611926771, guid: d7168e151241e4d488eec821dfd911e2, type: 3}
       propertyPath: m_LocalScale.x
@@ -8969,6 +9491,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -9059,6 +9585,10 @@ PrefabInstance:
     - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_Name
       value: saw (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 7865162401987506561, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9169,6 +9699,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rocks-small
       objectReference: {fileID: 0}
+    - target: {fileID: 5661057053069514891, guid: be6750344b9809f44822f56ff1b8a0bf, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9185,6 +9719,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -9279,7 +9817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886251e9a18ece04ea8e61686c173e1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachinePositionComposer
-  CameraDistance: 10
+  CameraDistance: 8
   DeadZoneDepth: 0
   Composition:
     ScreenPosition: {x: 0, y: 0}
@@ -9318,7 +9856,7 @@ MonoBehaviour:
   m_StreamingVersion: 20241001
   m_LegacyPriority: 0
   Target:
-    TrackingTarget: {fileID: 1422941372}
+    TrackingTarget: {fileID: 519265790}
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
@@ -9350,7 +9888,7 @@ Transform:
   m_GameObject: {fileID: 1391682733}
   serializedVersion: 2
   m_LocalRotation: {x: 0.30410787, y: -0.000031832406, z: 0.00009971707, w: 0.9526376}
-  m_LocalPosition: {x: 2.1828184, y: 6.358433, z: -14.326325}
+  m_LocalPosition: {x: 1.3060126, y: 5.2064342, z: -14.503563}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9372,6 +9910,10 @@ PrefabInstance:
     - target: {fileID: 5872220833939785565, guid: ceb5ce3da8fe0324c89594b696256c10, type: 3}
       propertyPath: m_Name
       value: platform-overhang (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5872220833939785565, guid: ceb5ce3da8fe0324c89594b696256c10, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6500243546842422759, guid: ceb5ce3da8fe0324c89594b696256c10, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9438,11 +9980,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6503709837149056485, guid: d91e5110a823e964ab213263c23b2cd4, type: 3}
   m_PrefabInstance: {fileID: 102736088}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1422941372 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
-  m_PrefabInstance: {fileID: 209548812}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1440943484
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9454,6 +9991,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -9519,6 +10060,10 @@ PrefabInstance:
     - target: {fileID: 4968336429195724076, guid: 36b84a9f72bd97249a7f6b8a6702dcf8, type: 3}
       propertyPath: m_Name
       value: train-locomotive
+      objectReference: {fileID: 0}
+    - target: {fileID: 4968336429195724076, guid: 36b84a9f72bd97249a7f6b8a6702dcf8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5744555747336282006, guid: 36b84a9f72bd97249a7f6b8a6702dcf8, type: 3}
       propertyPath: m_LocalScale.x
@@ -9588,6 +10133,10 @@ PrefabInstance:
     - target: {fileID: 37258628545296774, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
       propertyPath: m_Name
       value: spike-block (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 37258628545296774, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 851055169628201788, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
       propertyPath: m_LocalScale.x
@@ -9725,6 +10274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cabin-roof-snow-dormer (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4334190944168277477, guid: 18fc24b06e296ea4fb6aaf7d4e931e87, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9790,6 +10343,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: block-snow (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4544152963762862996, guid: fc07a3b2adb9b914aa0e98161de8edd0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9831,6 +10388,10 @@ PrefabInstance:
     - target: {fileID: 4631878412553104293, guid: 424201edadbe57342a04f037ec04f22d, type: 3}
       propertyPath: m_Name
       value: bench (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631878412553104293, guid: 424201edadbe57342a04f037ec04f22d, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5407816328481829151, guid: 424201edadbe57342a04f037ec04f22d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9888,6 +10449,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9960,6 +10525,10 @@ PrefabInstance:
     - target: {fileID: 7227826088283268428, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
       propertyPath: m_Name
       value: door-open (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227826088283268428, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7999999482552696822, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
       propertyPath: m_LocalScale.x
@@ -10035,6 +10604,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spike-block-wide (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
       value: 8.7705
@@ -10109,6 +10682,10 @@ PrefabInstance:
     - target: {fileID: 6195615690177426031, guid: 04d12dc730399094d8ddcc47cdcfb9ae, type: 3}
       propertyPath: m_Name
       value: snowman-hat (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6195615690177426031, guid: 04d12dc730399094d8ddcc47cdcfb9ae, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6823216254773160149, guid: 04d12dc730399094d8ddcc47cdcfb9ae, type: 3}
       propertyPath: m_LocalScale.x
@@ -10189,6 +10766,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spike-block-wide (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
       value: 8.7705
@@ -10264,6 +10845,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spike-block-wide (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
       value: 8.7705
@@ -10333,6 +10918,10 @@ PrefabInstance:
     - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_Name
       value: saw (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 7865162401987506561, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10443,6 +11032,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: block-snow (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4544152963762862996, guid: fc07a3b2adb9b914aa0e98161de8edd0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10459,6 +11052,10 @@ PrefabInstance:
     - target: {fileID: 37258628545296774, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
       propertyPath: m_Name
       value: spike-block (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 37258628545296774, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 851055169628201788, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
       propertyPath: m_LocalScale.x
@@ -10544,6 +11141,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: crate (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3767244793766851023, guid: 8ba0ed76bb0b44145a3e1e29a71e017f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4543042969440742261, guid: 8ba0ed76bb0b44145a3e1e29a71e017f, type: 3}
       propertyPath: m_LocalScale.x
       value: 6.152
@@ -10608,6 +11209,10 @@ PrefabInstance:
     - target: {fileID: 5872220833939785565, guid: ceb5ce3da8fe0324c89594b696256c10, type: 3}
       propertyPath: m_Name
       value: platform-overhang (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5872220833939785565, guid: ceb5ce3da8fe0324c89594b696256c10, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6500243546842422759, guid: ceb5ce3da8fe0324c89594b696256c10, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10675,6 +11280,10 @@ PrefabInstance:
     - target: {fileID: 7227826088283268428, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
       propertyPath: m_Name
       value: door-open (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227826088283268428, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7999999482552696822, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
       propertyPath: m_LocalScale.x
@@ -10745,6 +11354,7 @@ GameObject:
   - component: {fileID: 1634769414}
   - component: {fileID: 1634769413}
   - component: {fileID: 1634769416}
+  - component: {fileID: 1634769417}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -10820,7 +11430,7 @@ Transform:
   m_GameObject: {fileID: 1634769412}
   serializedVersion: 2
   m_LocalRotation: {x: 0.30410787, y: -0.000031832406, z: 0.00009971707, w: 0.9526376}
-  m_LocalPosition: {x: 2.1828184, y: 6.358433, z: -14.326325}
+  m_LocalPosition: {x: 1.3060126, y: 5.2064342, z: -14.503563}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10858,6 +11468,50 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
+--- !u!114 &1634769417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634769412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!4 &1636510178 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7865162401987506561, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
@@ -10884,6 +11538,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10941,6 +11599,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -11059,6 +11721,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: reindeer
       objectReference: {fileID: 0}
+    - target: {fileID: 4309657686368405173, guid: 4424621a31b0dfe4fb7eb818465ec454, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11123,6 +11789,10 @@ PrefabInstance:
     - target: {fileID: 8773885304669719583, guid: ec349af02aad26e40a6bf4f8ba939a5d, type: 3}
       propertyPath: m_Name
       value: fence-corner
+      objectReference: {fileID: 0}
+    - target: {fileID: 8773885304669719583, guid: ec349af02aad26e40a6bf4f8ba939a5d, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11198,6 +11868,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sign
       objectReference: {fileID: 0}
+    - target: {fileID: 7610429585400264709, guid: 939d5c8ab9dc749468f976cab2f4d7da, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11219,6 +11893,10 @@ PrefabInstance:
     - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_Name
       value: saw
+      objectReference: {fileID: 0}
+    - target: {fileID: 7380690762730138427, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 7865162401987506561, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
       propertyPath: m_LocalScale.x
@@ -11367,6 +12045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: block-moving-large
       objectReference: {fileID: 0}
+    - target: {fileID: 8142825067058815984, guid: c1908ac3915a973449eda7301cca183b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8812120522081941834, guid: c1908ac3915a973449eda7301cca183b, type: 3}
       propertyPath: m_LocalScale.x
       value: 6.3708425
@@ -11441,6 +12123,10 @@ PrefabInstance:
     - target: {fileID: 5083903158700099483, guid: ac785e280924bf64c9b663bc64f7229a, type: 3}
       propertyPath: m_Name
       value: barrel
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083903158700099483, guid: ac785e280924bf64c9b663bc64f7229a, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5604296873025084705, guid: ac785e280924bf64c9b663bc64f7229a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11556,6 +12242,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-snow
       objectReference: {fileID: 0}
+    - target: {fileID: 3420682924229598671, guid: f713d3abbddc9bd498d081e36c6d5831, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11577,6 +12267,10 @@ PrefabInstance:
     - target: {fileID: 6109459577221352366, guid: e4ff9915f5813ba47aab188c52ced298, type: 3}
       propertyPath: m_Name
       value: platform-ramp (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109459577221352366, guid: e4ff9915f5813ba47aab188c52ced298, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6882337719839838484, guid: e4ff9915f5813ba47aab188c52ced298, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11688,6 +12382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence-corner (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8773885304669719583, guid: ec349af02aad26e40a6bf4f8ba939a5d, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11758,6 +12456,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: block-snow
       objectReference: {fileID: 0}
+    - target: {fileID: 4544152963762862996, guid: fc07a3b2adb9b914aa0e98161de8edd0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11784,6 +12486,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -11907,6 +12613,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: train-tender (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5305394719337268272, guid: d943116d0865aeb4da857105a03b7f5f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11923,6 +12633,10 @@ PrefabInstance:
     - target: {fileID: 3767244793766851023, guid: 8ba0ed76bb0b44145a3e1e29a71e017f, type: 3}
       propertyPath: m_Name
       value: crate
+      objectReference: {fileID: 0}
+    - target: {fileID: 3767244793766851023, guid: 8ba0ed76bb0b44145a3e1e29a71e017f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4543042969440742261, guid: 8ba0ed76bb0b44145a3e1e29a71e017f, type: 3}
       propertyPath: m_LocalScale.x
@@ -12009,6 +12723,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: nutcracker
       objectReference: {fileID: 0}
+    - target: {fileID: 4671218731945926175, guid: f89f7f9f1106b6c40a4de4db79780c42, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5447191833102369957, guid: f89f7f9f1106b6c40a4de4db79780c42, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.4683
@@ -12077,6 +12795,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -12323,6 +13045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cabin-roof-snow-corner
       objectReference: {fileID: 0}
+    - target: {fileID: 5289756463429382673, guid: 63d3af5e4aa97a84088a8faec3ea70c6, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12392,6 +13118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cabin-roof-snow-dormer
       objectReference: {fileID: 0}
+    - target: {fileID: 4334190944168277477, guid: 18fc24b06e296ea4fb6aaf7d4e931e87, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12460,6 +13190,10 @@ PrefabInstance:
     - target: {fileID: 5305394719337268272, guid: d943116d0865aeb4da857105a03b7f5f, type: 3}
       propertyPath: m_Name
       value: train-tender (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305394719337268272, guid: d943116d0865aeb4da857105a03b7f5f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12543,6 +13277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-pine-small
       objectReference: {fileID: 0}
+    - target: {fileID: 8018268414090516173, guid: 62fd9dc8574745146b505f0070781b05, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12559,6 +13297,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -12673,6 +13415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence-corner (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8773885304669719583, guid: ec349af02aad26e40a6bf4f8ba939a5d, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12694,6 +13440,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -12765,6 +13515,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spike-block-wide (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
       value: 8.7705
@@ -12829,6 +13583,10 @@ PrefabInstance:
     - target: {fileID: 8570807856610222942, guid: 08dc57c49661add45a02d95e6fce9491, type: 3}
       propertyPath: m_Name
       value: block-snow-large-slope-steep-narrow
+      objectReference: {fileID: 0}
+    - target: {fileID: 8570807856610222942, guid: 08dc57c49661add45a02d95e6fce9491, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 9059677817202112996, guid: 08dc57c49661add45a02d95e6fce9491, type: 3}
       propertyPath: m_LocalScale.x
@@ -12903,6 +13661,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -12984,6 +13746,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spike-block-wide (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
       value: 8.7705
@@ -13053,6 +13819,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -13191,6 +13961,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: snowman
       objectReference: {fileID: 0}
+    - target: {fileID: 5773493018872844196, guid: 92a3010c041402d429f16aca4c66035f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6580957399474853150, guid: 92a3010c041402d429f16aca4c66035f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.45
@@ -13247,6 +14021,10 @@ PrefabInstance:
     - target: {fileID: 7227826088283268428, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
       propertyPath: m_Name
       value: door-open
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227826088283268428, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7999999482552696822, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
       propertyPath: m_LocalScale.x
@@ -13370,6 +14148,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: block-snow-overhang-large-tall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4310968246064867812, guid: a5574384f7fbf63468614620b5b723bd, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13386,6 +14168,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -13456,6 +14242,10 @@ PrefabInstance:
     - target: {fileID: 2842547970356383713, guid: a6552d5b2cd4256468a06db0b58df213, type: 3}
       propertyPath: m_Name
       value: tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 2842547970356383713, guid: a6552d5b2cd4256468a06db0b58df213, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3186599089524036955, guid: a6552d5b2cd4256468a06db0b58df213, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13566,6 +14356,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: chest
       objectReference: {fileID: 0}
+    - target: {fileID: 758016629257128066, guid: 5953d6591857e014cbf088e55eccefce, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13587,6 +14381,10 @@ PrefabInstance:
     - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_Name
       value: spike-block-wide (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810050758388173990, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
       propertyPath: m_LocalScale.x
@@ -13668,6 +14466,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: snowman-hat
       objectReference: {fileID: 0}
+    - target: {fileID: 6195615690177426031, guid: 04d12dc730399094d8ddcc47cdcfb9ae, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6823216254773160149, guid: 04d12dc730399094d8ddcc47cdcfb9ae, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.1042
@@ -13737,6 +14539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform-overhang (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5872220833939785565, guid: ceb5ce3da8fe0324c89594b696256c10, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6500243546842422759, guid: ceb5ce3da8fe0324c89594b696256c10, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.765397
@@ -13782,6 +14588,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ceb5ce3da8fe0324c89594b696256c10, type: 3}
+--- !u!1 &2129399070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2129399071}
+  m_Layer: 0
+  m_Name: RespawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2129399071
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129399070}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 3.11, z: -8.15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2141053280 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7865162401987506561, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
@@ -13806,5 +14643,6 @@ SceneRoots:
   - {fileID: 1297826967}
   - {fileID: 926783334}
   - {fileID: 2019397882}
-  - {fileID: 209548812}
   - {fileID: 1391682736}
+  - {fileID: 699326046}
+  - {fileID: 2129399071}
