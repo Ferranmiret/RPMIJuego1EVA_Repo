@@ -2191,6 +2191,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PokeCoin (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
+      propertyPath: m_TagString
+      value: PickUp
+      objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2
@@ -2993,6 +2997,10 @@ PrefabInstance:
     - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_Name
       value: PokeCoin (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
+      propertyPath: m_TagString
+      value: PickUp
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalScale.x
@@ -7629,7 +7637,7 @@ Transform:
   m_GameObject: {fileID: 613954789}
   serializedVersion: 2
   m_LocalRotation: {x: 0.26673377, y: 0, z: 0, w: 0.9637703}
-  m_LocalPosition: {x: 0, y: 2.5707006, z: -4.288531}
+  m_LocalPosition: {x: -2.12, y: 3.090701, z: -17.43853}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8925,6 +8933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PokeCoin (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
+      propertyPath: m_TagString
+      value: PickUp
+      objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2
@@ -9319,6 +9331,10 @@ PrefabInstance:
     - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_Name
       value: PokeCoin (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
+      propertyPath: m_TagString
+      value: PickUp
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalScale.x
@@ -16936,15 +16952,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2.12
       objectReference: {fileID: 0}
     - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.52
       objectReference: {fileID: 0}
     - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -13.15
       objectReference: {fileID: 0}
     - target: {fileID: 3764835493390259756, guid: ad05bb52c848bd34798792368a48d415, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17977,7 +17993,7 @@ Transform:
   m_GameObject: {fileID: 1476614187}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.48, y: 0, z: -12.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19350,6 +19366,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PokeCoin
       objectReference: {fileID: 0}
+    - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
+      propertyPath: m_TagString
+      value: PickUp
+      objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2
@@ -20085,7 +20105,7 @@ Transform:
   m_GameObject: {fileID: 1683836759}
   serializedVersion: 2
   m_LocalRotation: {x: 0.26673377, y: 0, z: 0, w: 0.9637703}
-  m_LocalPosition: {x: 0, y: 2.5707006, z: -4.288531}
+  m_LocalPosition: {x: -2.12, y: 3.090701, z: -17.43853}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -87,19 +87,41 @@ public class PlayerInteractor : MonoBehaviour
 
         if (roll <= catchProbability)
         {
-            Debug.Log("¡Pokémon atrapado con éxito!");
+            Debug.Log("¡Pokémon atrapado con éxito! Pasando de nivel...");
+            // Llama a la progresión centralizada del proyecto
+            Invoke("LoadNextLevel", 1.5f);
             return true; // Devuelve true para que el Pokémon desaparezca
         }
         else
         {
-            Debug.Log("¡El Pokémon se ha escapado!");
-            Invoke("RestartCurrentScene", 1.5f);
+            Debug.Log("¡El Pokémon se ha escapado! Game Over en 2 segundos...");
+            // Espera 2 segundos antes de ir a Game Over mediante el ManagerScene
+            Invoke("TriggerGameOver", 2.0f);
             return false; // Devuelve false para que el Pokémon siga ahí
         }
     }
 
-    void RestartCurrentScene()
+    void LoadNextLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (ManagerScene.Instance != null)
+        {
+            ManagerScene.Instance.CompleteLevel(); //[cite: 1]
+        }
+        else
+        {
+            Debug.LogError("ManagerScene no encontrado en la escena.");
+        }
+    }
+
+    void TriggerGameOver()
+    {
+        if (ManagerScene.Instance != null)
+        {
+            ManagerScene.Instance.PlayerDied(); //[cite: 1]
+        }
+        else
+        {
+            Debug.LogError("ManagerScene no encontrado en la escena.");
+        }
     }
 }
