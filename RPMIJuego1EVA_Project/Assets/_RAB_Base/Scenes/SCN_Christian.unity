@@ -5108,6 +5108,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7ffa529e81d5904d9140da2b3adbfc1, type: 3}
+--- !u!1 &1255700121 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2936189929941825876, guid: 29394c9a05ed8b04caccaafb51c551e5, type: 3}
+  m_PrefabInstance: {fileID: 1647241770}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1255994341 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5692919848124217002, guid: a5dba6dab3b6a2241927a1b180e80604, type: 3}
@@ -7414,10 +7419,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mew
       objectReference: {fileID: 0}
+    - target: {fileID: 7213719079117895428, guid: 29394c9a05ed8b04caccaafb51c551e5, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2936189929941825876, guid: 29394c9a05ed8b04caccaafb51c551e5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1748651738}
   m_SourcePrefab: {fileID: 100100000, guid: 29394c9a05ed8b04caccaafb51c551e5, type: 3}
 --- !u!4 &1660789279 stripped
 Transform:
@@ -8016,6 +8028,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2590873273381331950, guid: 29394c9a05ed8b04caccaafb51c551e5, type: 3}
   m_PrefabInstance: {fileID: 1647241770}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1748651738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255700121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0198c8aa9f5fe4da66a756979d1ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonGoal
 --- !u!1001 &1760714651
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9043,6 +9067,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2955268093276677981, guid: ad05bb52c848bd34798792368a48d415, type: 3}
+      propertyPath: winPoints
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2955268093276677981, guid: ad05bb52c848bd34798792368a48d415, type: 3}
       propertyPath: respawnPoint
       value: 
