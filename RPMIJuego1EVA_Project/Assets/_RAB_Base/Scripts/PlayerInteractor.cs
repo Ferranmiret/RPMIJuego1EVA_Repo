@@ -1,6 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class PlayerInteractor : MonoBehaviour
 {
@@ -11,6 +12,10 @@ public class PlayerInteractor : MonoBehaviour
     [Header("Point & Pokemon System")]
     public int points;
     public int winPoints = 3;
+
+    [Header("Coin Counter")]
+    public int totalCoins = 3;
+    public TMP_Text coinText;
 
     [Range(0f, 100f)]
     public float maxCatchProbability = 100f;
@@ -25,6 +30,7 @@ public class PlayerInteractor : MonoBehaviour
     void Start()
     {
         points = 0;
+        UpdateCoinCounter();
     }
 
     void Update()
@@ -48,23 +54,45 @@ public class PlayerInteractor : MonoBehaviour
         if (other.gameObject.CompareTag("PickUp"))
         {
             points += 1;
-            sfxSource.PlayOneShot(sfxList[2]);
+
+            if (sfxSource != null && sfxList.Length > 2)
+            {
+                sfxSource.PlayOneShot(sfxList[2]);
+            }
+
             other.gameObject.SetActive(false);
+
+            UpdateCoinCounter();
+
+            Debug.Log("Monedas: " + points + "/" + totalCoins);
         }
+
         if (other.gameObject.CompareTag("Switch"))
         {
-            sfxSource.PlayOneShot(sfxList[3]);
+            if (sfxSource != null && sfxList.Length > 3)
+            {
+                sfxSource.PlayOneShot(sfxList[3]);
+            }
+        }
+    }
+
+    void UpdateCoinCounter()
+    {
+        if (coinText != null)
+        {
+            coinText.text = points + "/" + totalCoins;
         }
     }
 
     void Respawn()
     {
-        if (sfxList.Length > 1 && sfxList[1] != null)
+        if (sfxList.Length > 1 && sfxList[1] != null && sfxSource != null)
         {
             sfxSource.PlayOneShot(sfxList[1]);
         }
 
         enabled = false;
+
         if (playerRb != null)
         {
             playerRb.linearVelocity = Vector3.zero;
@@ -80,7 +108,8 @@ public class PlayerInteractor : MonoBehaviour
     {
         float catchProbability = ((float)points / winPoints) * maxCatchProbability;
 
-        if (catchProbability > 100f) catchProbability = 100f;
+        if (catchProbability > 100f)
+            catchProbability = 100f;
 
         float roll = Random.Range(0f, 100f);
 

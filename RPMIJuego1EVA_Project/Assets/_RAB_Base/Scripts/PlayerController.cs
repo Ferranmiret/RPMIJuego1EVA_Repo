@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public bool useLinearVelocity = true; //Si es verdadero, usará el movimiento físico por motor de aceleración, si no, el de fuerza de empuje
     public bool groundCheck; //Bool que determina si el pj puede saltar o no (cuando está en el suelo puede)
 
-
+   
     [Header("Reference Variables")]
     public Rigidbody playerRb; //Almacén de referencia del rb, una vez relleno permite modificar sus variables internas
     public Vector2 moveInput; //Almacén de los valores de pulsación de movimiento (0, 1, -1)
@@ -40,6 +40,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+     
         if (collision.gameObject.CompareTag("Ground"))
         {
             groundCheck = true; //Al chocar con el suelo se devuelve la posibilidad de saltar
