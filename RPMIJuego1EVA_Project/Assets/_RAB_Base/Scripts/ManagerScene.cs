@@ -18,7 +18,7 @@ public class ManagerScene : MonoBehaviour
         "SCN_Jacobo",
         "SCN_JuanPablo",
         "SCN_Ferran",
-        "SCN_Christian"
+        "SCN_Christian"       
     };
 
     private int currentLevel = 0;
