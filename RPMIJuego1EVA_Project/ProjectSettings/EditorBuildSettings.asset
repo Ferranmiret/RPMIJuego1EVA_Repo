@@ -27,8 +27,8 @@ EditorBuildSettings:
     path: Assets/_RAB_Base/Scenes/SCN_Ferran.unity
     guid: 711c160e26752c442bee32ce652e3e96
   - enabled: 1
-    path: Assets/_RAB_Base/Scenes/SCN_ChristianPruebas.unity
-    guid: 276e4f97ee7c2e94f87ecba05e318db8
+    path: Assets/_RAB_Base/Scenes/SCN_Christian.unity
+    guid: bed8d475353463a45bb1f86c62bc22ea
   - enabled: 1
     path: Assets/_RAB_Base/Scenes/Intro.unity
     guid: 7a898186ae0f4c04a8754673eaf49454
