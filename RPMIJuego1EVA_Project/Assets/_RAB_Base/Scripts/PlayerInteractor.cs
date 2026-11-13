@@ -6,11 +6,11 @@ public class PlayerInteractor : MonoBehaviour
 {
     [Header("Respawn Configuration")]
     public Transform respawnPoint;
-    public float respawnFallLimit = -10;
+    public float respawnFallLimit = -10f;
 
     [Header("Point & Pokemon System")]
     public int points;
-    public int winPoints = 3; // Monedas totales necesarias para el 100%
+    public int winPoints = 3;
 
     [Range(0f, 100f)]
     public float maxCatchProbability = 100f;
@@ -29,7 +29,6 @@ public class PlayerInteractor : MonoBehaviour
 
     void Update()
     {
-        // Respawn por caída al vacío
         if (transform.position.y <= respawnFallLimit)
         {
             Respawn();
@@ -60,16 +59,21 @@ public class PlayerInteractor : MonoBehaviour
 
     void Respawn()
     {
-        transform.position = respawnPoint.position;
-        playerRb.linearVelocity = Vector3.zero;
-        playerRb.angularVelocity = Vector3.zero;
-        sfxSource.PlayOneShot(sfxList[1]);
-
-        PlayerDash dashScript = GetComponent<PlayerDash>();
-        if (dashScript != null)
+        if (sfxList.Length > 1 && sfxList[1] != null)
         {
-            dashScript.ResetDashes();
+            sfxSource.PlayOneShot(sfxList[1]);
         }
+
+        enabled = false;
+        if (playerRb != null)
+        {
+            playerRb.linearVelocity = Vector3.zero;
+            playerRb.angularVelocity = Vector3.zero;
+            playerRb.isKinematic = true;
+        }
+
+        Debug.Log("¡El jugador ha muerto! Game Over en 2 segundos...");
+        Invoke("TriggerGameOver", 2.0f);
     }
 
     public bool TryCatchPokemon()
@@ -87,19 +91,39 @@ public class PlayerInteractor : MonoBehaviour
 
         if (roll <= catchProbability)
         {
-            Debug.Log("¡Pokémon atrapado con éxito!");
-            return true; // Devuelve true para que el Pokémon desaparezca
+            Debug.Log("¡Pokémon atrapado con éxito! Pasando de nivel...");
+            Invoke("LoadNextLevel", 1.5f);
+            return true;
         }
         else
         {
-            Debug.Log("¡El Pokémon se ha escapado!");
-            Invoke("RestartCurrentScene", 1.5f);
-            return false; // Devuelve false para que el Pokémon siga ahí
+            Debug.Log("¡El Pokémon se ha escapado! Game Over en 2 segundos...");
+            Invoke("TriggerGameOver", 2.0f);
+            return false;
         }
     }
 
-    void RestartCurrentScene()
+    void LoadNextLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (ManagerScene.Instance != null)
+        {
+            ManagerScene.Instance.CompleteLevel();
+        }
+        else
+        {
+            Debug.LogError("ManagerScene no encontrado en la escena.");
+        }
+    }
+
+    void TriggerGameOver()
+    {
+        if (ManagerScene.Instance != null)
+        {
+            ManagerScene.Instance.PlayerDied();
+        }
+        else
+        {
+            Debug.LogError("ManagerScene no encontrado en la escena.");
+        }
     }
 }
