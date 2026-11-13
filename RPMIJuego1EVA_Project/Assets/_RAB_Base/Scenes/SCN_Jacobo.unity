@@ -2143,7 +2143,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8164751503391434514, guid: 8212c64ef7d1d1344902f2b505acfbb2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1888834842}
   m_SourcePrefab: {fileID: 100100000, guid: 8212c64ef7d1d1344902f2b505acfbb2, type: 3}
 --- !u!1001 &536364447
 PrefabInstance:
@@ -8882,6 +8885,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6938520822291203448, guid: c7d4cc851256e2d4c87b22a7e06a0411, type: 3}
   m_PrefabInstance: {fileID: 1882631361}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1888834841 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8164751503391434514, guid: 8212c64ef7d1d1344902f2b505acfbb2, type: 3}
+  m_PrefabInstance: {fileID: 514160845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1888834842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888834841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0198c8aa9f5fe4da66a756979d1ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonGoal
 --- !u!1001 &1895274129
 PrefabInstance:
   m_ObjectHideFlags: 0
