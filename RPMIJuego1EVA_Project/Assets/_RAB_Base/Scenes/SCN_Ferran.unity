@@ -448,11 +448,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1264224965}
     m_Modifications:
     - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_Name
       value: PokeCoin (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
+      propertyPath: m_TagString
+      value: PickUp
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalScale.x
@@ -468,7 +472,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.44
+      value: 58.95195
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -476,7 +480,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 34.33
+      value: -95.90381
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.w
@@ -484,15 +488,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -911,6 +915,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d91e5110a823e964ab213263c23b2cd4, type: 3}
+--- !u!4 &112783785 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
+  m_PrefabInstance: {fileID: 422699453}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &113610526 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8812120522081941834, guid: c1908ac3915a973449eda7301cca183b, type: 3}
@@ -1431,17 +1440,26 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
+--- !u!4 &147948679 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
+  m_PrefabInstance: {fileID: 1997410904}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &156115707
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1264224965}
     m_Modifications:
     - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_Name
       value: PokeCoin (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
+      propertyPath: m_TagString
+      value: PickUp
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalScale.x
@@ -1457,7 +1475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.81
+      value: 69.32195
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1465,7 +1483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 138.65
+      value: 8.416183
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1473,15 +1491,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3459,15 +3477,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1264224965}
     m_Modifications:
     - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_Name
       value: PokeCoin (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
+      propertyPath: m_TagString
+      value: PickUp
+      objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.29351467
+      value: 0.29351464
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalScale.y
@@ -3479,7 +3501,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.094239116
+      value: 56.60619
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3487,7 +3509,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 537.3587
+      value: 407.12488
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3610,6 +3632,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c5cbf3728bd04b43a1017099a077f66, type: 3}
+--- !u!4 &446105120 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
+  m_PrefabInstance: {fileID: 43355435}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &449749567
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4067,6 +4094,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
   m_PrefabInstance: {fileID: 1657404468}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &511475354 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
+  m_PrefabInstance: {fileID: 1991203966}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &512657934
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4140,6 +4172,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9599002d7112d49939ba86115969db, type: 3}
+--- !u!4 &518419556 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
+  m_PrefabInstance: {fileID: 1038831686}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519265783 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3295082559860610859, guid: ad05bb52c848bd34798792368a48d415, type: 3}
@@ -4255,11 +4292,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1264224965}
     m_Modifications:
     - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_Name
       value: PokeCoin (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
+      propertyPath: m_TagString
+      value: PickUp
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalScale.x
@@ -4275,7 +4316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.56
+      value: 64.07195
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4283,7 +4324,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 220.16
+      value: 89.92619
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4291,15 +4332,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4873,6 +4914,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5736647549611926771, guid: d7168e151241e4d488eec821dfd911e2, type: 3}
   m_PrefabInstance: {fileID: 791891261}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &647410696 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
+  m_PrefabInstance: {fileID: 535041203}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &648397716 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7865162401987506561, guid: f02f419a9c2fa1c42b6e80e184ca54f9, type: 3}
@@ -5343,6 +5389,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2955268093276677981, guid: ad05bb52c848bd34798792368a48d415, type: 3}
+      propertyPath: winPoints
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2955268093276677981, guid: ad05bb52c848bd34798792368a48d415, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -8252,11 +8302,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1264224965}
     m_Modifications:
     - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_Name
       value: PokeCoin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
+      propertyPath: m_TagString
+      value: PickUp
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalScale.x
@@ -8272,7 +8326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.21
+      value: 58.72195
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8280,7 +8334,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11.16
+      value: -119.07381
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8288,15 +8342,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9947,6 +10001,44 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
   m_PrefabInstance: {fileID: 343158916}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1264224964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1264224965}
+  m_Layer: 0
+  m_Name: --COINS--
+  m_TagString: PickUp
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1264224965
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264224964}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -56.51195, y: -0, z: 130.23381}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 518419556}
+  - {fileID: 446105120}
+  - {fileID: 1742886057}
+  - {fileID: 647410696}
+  - {fileID: 147948679}
+  - {fileID: 511475354}
+  - {fileID: 112783785}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1283015878 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 851055169628201788, guid: a879fc09382d24d4e9ddeeb4adae953b, type: 3}
@@ -13173,6 +13265,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac785e280924bf64c9b663bc64f7229a, type: 3}
+--- !u!4 &1742886057 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
+  m_PrefabInstance: {fileID: 156115707}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1746300991 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6623285203991729692, guid: 6e53e73e48125b248b97f7b48ee67ec9, type: 3}
@@ -14684,11 +14781,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1264224965}
     m_Modifications:
     - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_Name
       value: PokeCoin (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
+      propertyPath: m_TagString
+      value: PickUp
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalScale.x
@@ -14704,7 +14805,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.38
+      value: 56.891953
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -14712,7 +14813,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 324.45
+      value: 194.2162
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14827,11 +14928,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1264224965}
     m_Modifications:
     - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_Name
       value: PokeCoin (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5014470131352729233, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
+      propertyPath: m_TagString
+      value: PickUp
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalScale.x
@@ -14847,7 +14952,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.644301
+      value: 60.156254
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -14855,7 +14960,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 381.83
+      value: 251.59618
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14863,15 +14968,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5682745209589705771, guid: bfa185f5b320d0745879002f87c6a7fc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -15832,14 +15937,8 @@ SceneRoots:
   - {fileID: 1873565507}
   - {fileID: 1297826967}
   - {fileID: 926783334}
+  - {fileID: 1264224965}
   - {fileID: 2019397882}
   - {fileID: 1391682736}
   - {fileID: 699326046}
   - {fileID: 2129399071}
-  - {fileID: 1038831686}
-  - {fileID: 43355435}
-  - {fileID: 156115707}
-  - {fileID: 535041203}
-  - {fileID: 1997410904}
-  - {fileID: 1991203966}
-  - {fileID: 422699453}
