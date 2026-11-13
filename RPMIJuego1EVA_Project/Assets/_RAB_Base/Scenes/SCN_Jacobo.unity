@@ -1745,7 +1745,7 @@ GameObject:
   - component: {fileID: 457369550}
   m_Layer: 0
   m_Name: --OBSTACLE--
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2092,6 +2092,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6977489784841027622, guid: 8212c64ef7d1d1344902f2b505acfbb2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8164751503391434514, guid: 8212c64ef7d1d1344902f2b505acfbb2, type: 3}
       propertyPath: m_Name
       value: Bulbasaur
@@ -7026,6 +7030,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2955268093276677981, guid: ad05bb52c848bd34798792368a48d415, type: 3}
+      propertyPath: winPoints
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955268093276677981, guid: ad05bb52c848bd34798792368a48d415, type: 3}
+      propertyPath: maxCatchProbability
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 3295082559860610859, guid: ad05bb52c848bd34798792368a48d415, type: 3}
       propertyPath: m_Name
       value: Player
