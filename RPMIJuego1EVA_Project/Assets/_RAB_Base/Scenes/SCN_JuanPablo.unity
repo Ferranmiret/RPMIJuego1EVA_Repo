@@ -7597,7 +7597,7 @@ Transform:
   m_GameObject: {fileID: 613954789}
   serializedVersion: 2
   m_LocalRotation: {x: 0.26673377, y: 0, z: 0, w: 0.9637703}
-  m_LocalPosition: {x: 0, y: 5.1414013, z: -8.577062}
+  m_LocalPosition: {x: 0, y: 2.5707006, z: -4.288531}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19927,7 +19927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886251e9a18ece04ea8e61686c173e1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachinePositionComposer
-  CameraDistance: 10
+  CameraDistance: 5
   DeadZoneDepth: 0
   Composition:
     ScreenPosition: {x: 0, y: 0}
@@ -19997,8 +19997,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1683836759}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.26673374, y: 0, z: 0, w: 0.9637702}
-  m_LocalPosition: {x: 0, y: 5.141401, z: -8.577063}
+  m_LocalRotation: {x: 0.26673377, y: 0, z: 0, w: 0.9637703}
+  m_LocalPosition: {x: 0, y: 2.5707006, z: -4.288531}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
