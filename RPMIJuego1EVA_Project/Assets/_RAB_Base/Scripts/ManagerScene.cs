@@ -1,12 +1,27 @@
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-public class SceneManagement : MonoBehaviour
+public class ManagerScene : MonoBehaviour
 {
-    public static SceneManagement Instance;
+    public static ManagerScene Instance;
 
-    private int currentLevel = 1;
+    [Header("Scene Names")]
+    [SerializeField] private string mainMenuScene = "SCN_MainMenu";
+    [SerializeField] private string gameOverScene = "SCN_GameOver";
+    [SerializeField] private string victoryScene = "SCN_Victory";
+
+    [Header("Level Scenes")]
+    [SerializeField]
+    private string[] levelScenes =
+    {
+        "SCN_Jacobo",
+        "SCN_JuanPablo",
+        "SCN_Ferran",
+        "SCN_Christian"
+    };
+
+    private int currentLevel = 0;
 
     private void Awake()
     {
@@ -21,46 +36,63 @@ public class SceneManagement : MonoBehaviour
         }
     }
 
-    // Cargar una escena determinada
-    public void SceneChanger(int sceneToLoad)
-    {
-        SceneManager.LoadScene(sceneToLoad);
-    }
-
-    // Empezar el juego
+    // Empezar una partida nueva
     public void StartGame()
     {
-        currentLevel = 1;
-        SceneManager.LoadScene(1);
+        currentLevel = 0;
+        LoadCurrentLevel();
     }
 
-    // Completar un nivel
-    public void CompleteLevel()
+    // Cargar el nivel actual
+    private void LoadCurrentLevel()
     {
-        if (currentLevel < 5)
+        if (currentLevel >= 0 && currentLevel < levelScenes.Length)
         {
-            currentLevel++;
-            SceneManager.LoadScene(currentLevel);
+            SceneManager.LoadScene(levelScenes[currentLevel]);
         }
         else
         {
-            SceneManager.LoadScene(6);
+            Debug.LogError("No se encuentra el nivel: " + currentLevel);
         }
     }
 
-    // Cuando muere el jugador
+    // Captura conseguida
+    public void CompleteLevel()
+    {
+        if (currentLevel < levelScenes.Length - 1)
+        {
+            currentLevel++;
+            LoadCurrentLevel();
+        }
+        else
+        {
+            SceneManager.LoadScene(victoryScene);
+        }
+    }
+
+    // Jugador muerto o captura fallida
     public void PlayerDied()
     {
-        currentLevel = Mathf.Max(1, currentLevel - 1);
-        SceneManager.LoadScene(currentLevel);
+        SceneManager.LoadScene(gameOverScene);
+    }
+
+    // Reiniciar el ultimo nivel desbloqueado
+    public void Restart()
+    {
+        LoadCurrentLevel();
+    }
+
+    // Volver al menu principal
+    public void ExitToMenu()
+    {
+        currentLevel = 0;
+        SceneManager.LoadScene(mainMenuScene);
     }
 
     // Salir del juego
     public void ExitGame()
     {
-        Debug.Log("El botón de salir del juego funciona.");
+        Debug.Log("Saliendo del juego...");
         Application.Quit();
     }
 }
-
-
