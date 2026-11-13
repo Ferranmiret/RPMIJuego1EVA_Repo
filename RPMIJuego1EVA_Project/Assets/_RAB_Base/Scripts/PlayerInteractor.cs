@@ -11,7 +11,6 @@ public class PlayerInteractor : MonoBehaviour
     [Header("Point & Pokemon System")]
     public int points;
     public int winPoints = 3; // Monedas totales necesarias para el 100%
-    public int sceneToLoad = 2; // Siguiente nivel
 
     [Range(0f, 100f)]
     public float maxCatchProbability = 100f;
@@ -66,7 +65,6 @@ public class PlayerInteractor : MonoBehaviour
         playerRb.angularVelocity = Vector3.zero;
         sfxSource.PlayOneShot(sfxList[1]);
 
-        // Resetea los dashes al morir o caer
         PlayerDash dashScript = GetComponent<PlayerDash>();
         if (dashScript != null)
         {
@@ -74,10 +72,8 @@ public class PlayerInteractor : MonoBehaviour
         }
     }
 
-    // FUNCIÓN PÚBLICA PARA QUE EL POKEMON PUEDA LLAMARLA
-    public void TryCatchPokemon()
+    public bool TryCatchPokemon()
     {
-        // Regla de tres: (Monedas conseguidas / Monedas totales) * 100
         float catchProbability = ((float)points / winPoints) * maxCatchProbability;
 
         if (catchProbability > 100f) catchProbability = 100f;
@@ -91,19 +87,15 @@ public class PlayerInteractor : MonoBehaviour
 
         if (roll <= catchProbability)
         {
-            Debug.Log("¡Pokémon atrapado con éxito! Pasando de nivel...");
-            Invoke("LoadNextScene", 1.5f);
+            Debug.Log("¡Pokémon atrapado con éxito!");
+            return true; // Devuelve true para que el Pokémon desaparezca
         }
         else
         {
-            Debug.Log("¡El Pokémon se ha escapado! Reiniciando nivel...");
+            Debug.Log("¡El Pokémon se ha escapado!");
             Invoke("RestartCurrentScene", 1.5f);
+            return false; // Devuelve false para que el Pokémon siga ahí
         }
-    }
-
-    void LoadNextScene()
-    {
-        SceneManager.LoadScene(sceneToLoad);
     }
 
     void RestartCurrentScene()
