@@ -27,4 +27,8 @@ public class SceneLoaderButton : MonoBehaviour
             Debug.LogError("No se encuentra el ManagerScene en la escena.");
         }
     }
+    public void CallLoadScene(string nombreEscenaSiguiente)
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(nombreEscenaSiguiente);
+    }
 }

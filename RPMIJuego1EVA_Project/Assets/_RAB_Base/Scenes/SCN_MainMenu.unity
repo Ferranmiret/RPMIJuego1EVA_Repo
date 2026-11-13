@@ -1753,6 +1753,7 @@ MonoBehaviour:
   gameOverScene: SCN_GameOver
   victoryScene: SCN_Victory
   levelScenes:
+  - Intro
   - SCN_Jacobo
   - SCN_JuanPablo
   - SCN_Ferran
