@@ -1,45 +1,48 @@
 using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.SceneManagement; //Librería de carga/descarga de escenas
+using UnityEngine.SceneManagement; // Librería de carga/descarga de escenas
 
 public class PlayerInteractor : MonoBehaviour
 {
     [Header("Respawn Configuration")]
-    public Transform respawnPoint; //Ref al punto de respawn para usar su posición
-    public float respawnFallLimit = -10; //Valor negativo en eje Y a partir del cual se respawnea
+    public Transform respawnPoint; // Ref al punto de respawn para usar su posición
+    public float respawnFallLimit = -10; // Valor negativo en eje Y a partir del cual se respawnea
 
-    [Header("Point System")]
-    public int points; //Cantidad de puntos actuales del player
-    public int winPoints = 5; //Cantidad de puntos necesarios para ganar
-    public int sceneToLoad = 2; //Número de escena a cargar cuando se consigue la victoria
+    [Header("Point & Pokemon System")]
+    public int points; // Cantidad de monedas actuales del player
+    public int winPoints = 3; // Monedas totales del nivel (3 para Nivel 1, 5 para Nivel 2, 7 para Nivel 3, 10 para Nivel 4)
+    public int sceneToLoad = 2; // Número de escena a cargar cuando se captura y se pasa de nivel
+
+    [Range(0f, 100f)]
+    public float maxCatchProbability = 100f; // Probabilidad máxima si se recogen el 100% de las monedas
+    private bool hasTriedToCatch = false; // Evita que la comprobación se ejecute mil veces por segundo
 
     [Header("Reference Variables")]
-    public Rigidbody playerRb; //Ref al rigidbody para resetear su motor de aceleración al respawnear
+    public Rigidbody playerRb; // Ref al rigidbody para resetear su motor de aceleración al respawnear
 
     [Header("SFX Configuration")]
-    public AudioClip[] sfxList; //Array de sonidos: diferentes sonidos agrupados para diferentes acciones
-    public AudioSource sfxSource; //Ref al altavoz del player: referenciarlo permite reproducir sonidos cuando queramos
+    public AudioClip[] sfxList; // Array de sonidos
+    public AudioSource sfxSource; // Ref al altavoz del player
 
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        points = 0; //Cuando empieza la partida, los puntos se ponen solos en cero
+        points = 0;
+        hasTriedToCatch = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        //Respawn por caída
-        if (transform.position.y <= respawnFallLimit) 
-        { 
+        // Respawn por caída
+        if (transform.position.y <= respawnFallLimit)
+        {
             Respawn();
         }
 
-        //Condición de victoria: Cuando points alcanza winpoints, cambiamos de escena
-        if (points >= winPoints)
+        // Condición de victoria: Cuando cogemos todas las monedas, intentamos atrapar al Pokémon (solo una vez)
+        if (points >= winPoints && !hasTriedToCatch)
         {
-            ChangeScene();
+            hasTriedToCatch = true;
+            TryCatchPokemon();
         }
     }
 
@@ -47,39 +50,32 @@ public class PlayerInteractor : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Obstacle"))
         {
-            //Respawn por choque de obstáculo
             Respawn();
         }
-
-        
     }
 
     private void OnTriggerEnter(Collider other)
     {
-
         if (other.gameObject.CompareTag("PickUp"))
         {
-            points += 1; //Suma un punto al total de puntos actuales
-            sfxSource.PlayOneShot(sfxList[2]); //Reproducir el sonido de pick up
-            other.gameObject.SetActive(false); //Apagar el objeto con el que chocas
+            points += 1; // Suma una moneda al total
+            sfxSource.PlayOneShot(sfxList[2]); // Sonido de pick up
+            other.gameObject.SetActive(false); // Apaga la moneda cogida
         }
         if (other.gameObject.CompareTag("Switch"))
         {
-            sfxSource.PlayOneShot(sfxList[3]); //Reproducir el sonido asociado al switch
+            sfxSource.PlayOneShot(sfxList[3]); // Sonido del switch
         }
-        
     }
 
     void Respawn()
     {
-        //1- Cambia la posición del player por la del punto de respawn
         transform.position = respawnPoint.position;
-        //2- Resetea la velocidad del Rigidbody para evitar acumulaciones de aceleración
-        playerRb.linearVelocity = new Vector3(0, 0, 0);
-        //3- Resetea la velocidad de rotación
-        playerRb.angularVelocity = new Vector3(0, 0, 0);
-        //4- Reproducir el sonido de respawn desde el audiosource del player
+        playerRb.linearVelocity = Vector3.zero;
+        playerRb.angularVelocity = Vector3.zero;
         sfxSource.PlayOneShot(sfxList[1]);
+
+        // Resetea los dashes si usas el script de dash que hicimos antes
         PlayerDash dashScript = GetComponent<PlayerDash>();
         if (dashScript != null)
         {
@@ -87,12 +83,39 @@ public class PlayerInteractor : MonoBehaviour
         }
     }
 
-    void ChangeScene()
+    void TryCatchPokemon()
     {
-        //Acción que al ejecutarse carga la escena asignada a la variable sceneToLoad
+        // CALCULADORA DE PROBABILIDAD:
+        // Si coges todas las monedas (ej: 3 de 3), la probabilidad es del 100% (o el valor de maxCatchProbability).
+        // Si coges menos, la probabilidad baja de forma proporcional.
+        float catchProbability = ((float)points / winPoints) * maxCatchProbability;
+
+        float roll = Random.Range(0f, 100f);
+
+        Debug.Log("¡Intento de captura! Probabilidad: " + catchProbability + "% | Dado: " + roll);
+
+        if (roll <= catchProbability)
+        {
+            Debug.Log("¡Enhorabuena! ¡Pokémon atrapado con éxito!");
+            // Puedes añadir aquí un sonido de victoria si queréis
+            Invoke("LoadNextScene", 1.5f); // Espera 1.5 segundos y pasa de nivel
+        }
+        else
+        {
+            Debug.Log("¡Vaya! El Pokémon se ha escapado... Reiniciando nivel para reintentar.");
+            // Al fallar, recargamos la escena actual: las monedas vuelven a aparecer y el Pokémon sigue ahí
+            Invoke("RestartCurrentScene", 1.5f);
+        }
+    }
+
+    void LoadNextScene()
+    {
         SceneManager.LoadScene(sceneToLoad);
     }
 
-
-
+    void RestartCurrentScene()
+    {
+        // Recarga exactamente el nivel en el que estás
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
