@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/_RAB_Base/Scenes/Intro.unity
     guid: 7a898186ae0f4c04a8754673eaf49454
   - enabled: 1
+    path: Assets/_RAB_Base/Scenes/Intro2.unity
+    guid: f2682b3ecd9ca274ca8b8e04e3bf131c
+  - enabled: 1
     path: Assets/_RAB_Base/Scenes/SCN_Jacobo.unity
     guid: 258a4351b49993049a1b40175040b58c
   - enabled: 1
@@ -29,6 +32,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_RAB_Base/Scenes/SCN_Christian.unity
     guid: bed8d475353463a45bb1f86c62bc22ea
+  - enabled: 1
+    path: Assets/_RAB_Base/Scenes/Final.unity
+    guid: 4b90d3e53eac3864fabb3719d5cb1ffe
+  - enabled: 1
+    path: Assets/_RAB_Base/Scenes/Final2.unity
+    guid: e67a1bf40f1b43741a4c1660fad8ef7d
   - enabled: 1
     path: Assets/_RAB_Base/Scenes/SCN_Victory.unity
     guid: 472ad88d48e2443409a8d31ab26997a4

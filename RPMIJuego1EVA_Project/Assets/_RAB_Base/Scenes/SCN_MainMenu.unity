@@ -1754,10 +1754,13 @@ MonoBehaviour:
   victoryScene: SCN_Victory
   levelScenes:
   - Intro
+  - Intro2
   - SCN_Jacobo
   - SCN_JuanPablo
   - SCN_Ferran
   - SCN_Christian
+  - Final
+  - Final2
 --- !u!1 &1488147095
 GameObject:
   m_ObjectHideFlags: 0
