@@ -560,7 +560,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.011420553, y: 0.1155926}
   m_AnchorMax: {x: 0.9747599, y: 0.86111104}
-  m_AnchoredPosition: {x: -0.9499512, y: 0.7720032}
+  m_AnchoredPosition: {x: -0.9499512, y: 0.77197266}
   m_SizeDelta: {x: 430.5, y: 161.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &543731749
@@ -585,7 +585,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Roll the pokeball and get all the coins to increase your chances, and
     the Pokemons to win!!\n\nMove with left joystick or WASD.\nJump with button south
-    or space.\nAt level 1 you have a double jump! \nAt level 2 you get 3 dashes with
+    or space.\nAt level 1 you have a double jump! \nAt level 3 you get 3 dashes with
     F!\nAt level 4 you can make yourself small with Q!\n\nBeware falls and obstacles...
     Good luck!"
   m_isRightToLeft: 0
